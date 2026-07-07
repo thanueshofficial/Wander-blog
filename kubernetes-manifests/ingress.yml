@@ -9,7 +9,7 @@ metadata:
 
       # Target Type and Listener Port
       alb.ingress.kubernetes.io/target-type: ip
-      alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS":443}, {"HTTP":80}]'
+      alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80}]'
 
       # Health Check Settings (delegated per-service)
       alb.ingress.kubernetes.io/healthcheck-protocol: HTTP
